@@ -25,7 +25,7 @@ public class JdbcTest {
 			session.save(s);
 			session.getTransaction().commit();
 //			Connection myConn = DriverManager.getConnection(url, user, pass);
-			System.out.println("Succ!");
+			System.out.println("Succ123!");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
